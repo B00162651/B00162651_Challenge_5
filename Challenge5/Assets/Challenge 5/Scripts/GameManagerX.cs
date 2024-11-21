@@ -85,7 +85,7 @@ public class GameManagerX : MonoBehaviour
     public void UpdateScore(int scoreToAdd)
     {
         score += scoreToAdd;
-        scoreText.SetText($"Score: {score}");// problem 3 
+        scoreText.SetText("Score: " + score);// problem 3 
     }
 
     // Stop game, bring up game over text and restart button
