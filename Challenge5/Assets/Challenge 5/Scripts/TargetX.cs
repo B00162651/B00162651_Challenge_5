@@ -27,8 +27,8 @@ public class TargetX : MonoBehaviour
     }
 
     // When target is clicked, destroy it, update score, and generate explosion
-    private void OnMouseEnter()
-    {
+    // problem2 switched to OnMouseDown    
+    private void OnMouseDown(){ 
         if (gameManagerX.isGameActive)
         {
             Destroy(gameObject);
